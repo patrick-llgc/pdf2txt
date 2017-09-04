@@ -32,3 +32,11 @@ convert -density 300 -alpha off image.pdf[1] -resize 80% image-02.png
 tesseract image-02.png outputtxt
 ```
 - Issue: some words are not OCR'ed correctly. Need manual proofreading.
+
+<!--
+The necessary information is scattered in two places
+- attachment on Page 11
+- H11 item on Page 3
+
+Thus a second round of text mining was performed and the two versions of json files are combined.
+-->

@@ -10,7 +10,7 @@ for file in glob.glob('*.txt'):
 	with open(file + '.txt', 'w') as g:
 		for line in lines:
 			line = line.replace('\\u2014', '-')
-			line = line.replace('00', 'oo')
+			# line = line.replace('00', 'oo')
 			line = line.replace('\\u2018', "'")
 			line = line.replace('\\u2019', "'")
 			line = line.replace('\\u201c', "'")

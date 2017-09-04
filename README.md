@@ -40,3 +40,15 @@ The necessary information is scattered in two places
 
 Thus a second round of text mining was performed and the two versions of json files are combined.
 -->
+
+### How to use these scripts
+This is the order of how the scripts were executed in tandem.
+
+```
+- batch_pdf2txt.py
+- clean_up_soc_code.py
+- check_field_completeness.py
+- extract_H11.py
+- combine_att_with_H11.py
+- clean_up_soc_code.py
+```
